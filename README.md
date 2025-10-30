@@ -28,11 +28,13 @@ amis = ["Alice", "Bob", "Alice", "Charlie", "Bob", "Denis"]
     Constat : Cette approche est simple, mais devient très inefficace pour trouver les amis d'une personne dans un grand réseau, car il faut parcourir toute la liste à chaque fois.
 
     Transition : La fin de la SAE 1.01 nous amène à convertir cette liste en une structure plus performante : le dictionnaire (dict).
+```
 
  SAE 1.02 : L'Approfondissement (Modèle "Dictionnaire")
 
 La SAE 1.02 est la suite directe de la première.
 Nous abandonnons la liste pour utiliser exclusivement le dictionnaire comme structure de base.
+```python
 
 reseau = {
     "Alice": ["Bob", "Charlie"],
@@ -44,6 +46,7 @@ reseau = {
 
     Avantage : Cette structure offre un accès quasi-instantané aux amis d'une personne.
     Grâce à ce gain d’efficacité (analysé dans compare_comu.ipynb), nous avons pu développer des algorithmes d’analyse plus complexes pour identifier de véritables communautés.
+```
 
 ## Fonctionnalités Principales (basées sur le dictionnaire)
 
