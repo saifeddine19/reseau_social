@@ -51,13 +51,14 @@ reseau = {
 ## Fonctionnalités Principales (basées sur le dictionnaire)
 
 Le fichier comu.py contient les fonctions clés développées pendant la SAE 1.02 :
-
+```python
 cree_reseau(t)             # Construit le dictionnaire du réseau à partir d'une liste
 sont_amis(reseau, p1, p2)  # Vérifie si deux personnes sont amies
 tri_popul(groupe, reseau)  # Trie une liste de personnes selon leur popularité (nombre d'amis)
 est_comu(reseau, groupe)   # Vérifie si un groupe forme une communauté (tout le monde est ami avec tout le monde)
 comu_dans_amis(personne, reseau)  # Trouve la plus grande communauté en partant d'une personne
 comu_max(reseau)           # Recherche la plus grande communauté dans tout le réseau
+```
 
 ## Structure du Projet
 ```java
