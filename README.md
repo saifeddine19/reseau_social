@@ -60,9 +60,10 @@ comu_dans_amis(personne, reseau)  # Trouve la plus grande communauté en partant
 comu_max(reseau)           # Recherche la plus grande communauté dans tout le réseau
 
 ## Structure du Projet
-
+```java
 SAE_101.ipynb           → Notebook Jupyter de la première partie (modèle Liste)
 project_SAE_102/        → Dossier de la seconde partie
 ├── comu.py             → Bibliothèque Python principale
 ├── test_comu.py        → Tests unitaires pour comu.py
 └── compare_comu.ipynb  → Analyse des performances (Liste vs Dictionnaire)
+```
